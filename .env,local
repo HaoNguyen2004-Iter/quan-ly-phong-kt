@@ -1,0 +1,14 @@
+# ví dụ Swagger của bạn:
+# POST /api/LeaveRequests/search  (body: { pageIndex, pageSize })
+# GET  /api/LeaveRequests/{id}
+# POST /api/LeaveRequests/{id}/approve
+# POST /api/LeaveRequests/{id}/reject
+
+VITE_LEAVES_LIST=/api/LeaveRequests/search
+VITE_LEAVES_LIST_METHOD=POST
+VITE_LEAVES_PAGE_KEY=pageIndex
+VITE_LEAVES_SIZE_KEY=pageSize
+
+VITE_LEAVES_BYID=/api/LeaveRequests/{id}
+VITE_LEAVES_APPROVE=/api/LeaveRequests/{id}/approve
+VITE_LEAVES_REJECT=/api/LeaveRequests/{id}/reject
